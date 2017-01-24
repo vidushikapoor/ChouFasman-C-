@@ -172,7 +172,7 @@ void checkAlphaHelix(linkedList& file)
 			}
 			if(count>=4)
 			{
-				//cout<<"alpha helix found"<<endl;
+				cout<<"alpha helix found"<<endl;
 				//cout<<"countMove is  "<<countMove<<"and count is"<<count<<endl;
 				break;
 			}
@@ -198,7 +198,7 @@ void checkAlphaHelix(linkedList& file)
 			}
 			if (sum/4<100)
 			{
-				//cout<<"end of alpha helix found"<<endl;
+				cout<<"end of alpha helix found"<<endl;
 				//cout<<"countMove2 is  "<<countMove2<<endl;
 				break;
 			}
@@ -254,7 +254,7 @@ void checkBetaSheet(linkedList& fileNew)
 			}
 			if(count>=3)
 			{
-				//cout<<"beta sheet found"<<endl;
+				cout<<"beta sheet found"<<endl;
 				//cout<<"countMove is  "<<countMove<<"and count is"<<count<<endl;
 				break;
 			}
@@ -280,7 +280,7 @@ void checkBetaSheet(linkedList& fileNew)
 			}
 			if (sum/4<100)
 			{
-				//cout<<"end of beta sheet found"<<endl;
+				cout<<"end of beta sheet found"<<endl;
 				//cout<<"countMove2 is  "<<countMove2<<endl;
 				break;
 			}
